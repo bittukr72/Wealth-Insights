@@ -1,0 +1,69 @@
+body{
+    background-image: url('image/wallhaven-city.png');
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid white;
+    margin-top: 20px;
+}
+
+.article {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color:rgb(130, 212, 242);
+}
+
+.article h2 {
+    font-size: 1.5rem;
+    color:black;
+}
+
+.article p {
+    color: #666;
+}
+
+.read-more {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+    background-color: #16e156;
+}
+
+
+.full-article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+
+.back-link {
+    display: inline-block;
+    margin: 20px auto;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+#news{
+    border: solid 4px black;
+    background-color:black;
+    color: white;
+    padding-left: 10px;
+}
